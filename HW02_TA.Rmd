@@ -33,9 +33,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Hints for Q5 
 
-### Why are my months look strange? 
+### Why do my months look strange? 
 
-- Look at the data structure, particularly the month column. 
+- Look at the data structure, particularly the month column. The str() function may come in handy for this.
 - What type of data is it? 
 - What type of data should it be? 
 
@@ -47,7 +47,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Try shortcut "command + shift + M" (mac)
 - or "control + shift + M" (windows)
 
-### 1. How many graph do I need? 
+### 1. How many graphs do I need? 
 
 - There is no specific number of graphs/analysis you need to do to get excellent 
 - The examples Ben gave is a great place to start off your homework, but don't be restricted by it

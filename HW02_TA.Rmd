@@ -1,0 +1,53 @@
+---
+title: "Week 02"
+author: "Xiaogao Zhou"
+date: "10/10/2019"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## General Workflow for HW02
+
+- Fork to your own repo
+- Clone the repo on to your RStudio
+- Work on your HW02 With the .Rmd file provided in the Repo
+- Commit, Commit, Commit
+- Push, Push Push
+- Click Knit button on your Rmd to generate a .md format report
+- Push that too
+- Start a pull request, leaving your reflections
+- (optional) make a better looking README.md for your grader
+
+## Hints for Q1:
+
+### 1. What is kable() ? I have never seen it anywhere
+
+- Look at the documentation for kable
+
+```
+?kable()
+```
+
+## Hints for Q5 
+
+### Why are my months look strange? 
+
+- Look at the data structure, particularly the month column. 
+- What type of data is it? 
+- What type of data should it be? 
+
+
+## FAQ
+
+### 1. I really want to use " %>% ", but typing it takes so much time!
+
+- Try shortcut "command + shift + M" (mac)
+- or "control + shift + M" (windows)
+
+### 1. How many graph do I need? 
+
+- There is no specific number of graphs/analysis you need to do to get excellent 
+- The examples Ben gave is a great place to start off your homework, but don't be restricted by it
